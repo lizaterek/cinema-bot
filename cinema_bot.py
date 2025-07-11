@@ -6,7 +6,8 @@ from aiogram.types import CallbackQuery, Message
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 import asyncio
 
-BOT_TOKEN = "7602655211:AAEbUa1-rPtIe-JZ02sBW9wT0PZ_WzJF2Wk"
+import os
+BOT_TOKEN = os.getenv("7602655211:AAEbUa1-rPtIe-JZ02sBW9wT0PZ_WzJF2Wk")
 DB_PATH = "bookings.db"
 
 logging.basicConfig(level=logging.INFO)
