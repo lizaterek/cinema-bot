@@ -1,5 +1,0 @@
-{
-  "buildpacks": [
-    "https://github.com/Scalingo/python-buildpack.git"
-  ]
-}
